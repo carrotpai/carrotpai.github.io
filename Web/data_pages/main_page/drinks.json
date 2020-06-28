@@ -1,0 +1,13 @@
+{
+	"drinks" : [
+		{"name" : "cola", "label" : "Кока-кола 0.6",
+			"price":"135", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" },
+		{"name" : "juice", "label" : "Сок добрый<br>0.8л<br>Поставте 5 пжлст",
+			"price":"110", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" },
+		{"name" : "peva", "label" : "Балтика-9",
+			"price":"155", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" }
+	]
+}

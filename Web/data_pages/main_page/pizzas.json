@@ -1,0 +1,16 @@
+{
+	"pizzas" : [
+		{"name" : "classic_pizza", "label" : "Классическая","price":"400", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci"},
+		{"name" : "mushroom_pizza", "label" : "Грибная пицца","price":"380", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci"},
+		{"name" : "pepper_pizza", "label" : "Пицца Чили","price":"505", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci"},
+		{"name" : "pepperoni_pizza", "label" : "Пицца Пепперони","price":"385", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci"},
+		{"name" : "tomato_pizza", "label" : "Томатная пицца","price":"340",
+		 "description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci"},
+		{"name" : "vegan_pizza", "label" : "Овощная пицца","price":"310", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci"}
+	]
+}

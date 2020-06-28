@@ -1,0 +1,309 @@
+header{
+	background: url(images/header3.jpg) no-repeat center top / cover;
+	height: 100px;
+}
+
+body {
+	padding:  0;
+	margin: 0;
+	font-family: 'Avenir', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+nav {
+	float: left;
+	margin-top: 37px;
+}
+
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.navigate {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.navigate li {
+	display: block;
+	float: left;
+	margin-right: 42px;
+}
+
+.navigate li a {
+	display: inline-block;
+	color: #6c6363;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+.navigate li a:hover{
+	color: #f26c12;
+	transition: .2s;
+}
+
+
+.logo {
+	margin-top: 44px;
+	margin-right: 38px;
+	float: left;
+}
+
+.separator {
+	margin-right: 38px;
+	float: left;
+	margin-top: 33px;
+}
+
+.total__price{
+	border-radius: 10px;
+	background-color: #e2dbdb;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.4em;
+	height: 30px;
+	width: 85px;
+	margin: 35px 15px 0 0;
+	float: right;
+}
+
+.symbol {
+	float: right;
+	margin: 35px 15px 0 0;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.4em;
+}
+
+.ShopCart {
+	float: right;
+	margin-top: 30px;
+}
+
+.slid {
+	background-color: #edecec;
+	height: 500px;
+}
+
+.headline {
+	text-align: center;
+	font-family: 'Bree', sans-serif;
+}
+
+.headline > img {
+	margin-bottom: 5px;
+}
+
+.headline > * {
+	display: inline-block;
+}
+
+.image_item {
+	width: 290px;
+	height: 455px;
+	border-style: solid;
+	border-color: #f7f6f6;
+	text-align: center;
+}
+
+.info {
+	position: relative;
+	height: 150px;
+}
+
+
+.info h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.prices_and_btn {
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+}
+
+
+.image_item .prices_and_btn > * {
+	display: inline-block;
+}
+
+
+.image_item .prices_and_btn a {
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	border: 0.1em solid #d3d3d3;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto' , sans-serif;
+	font-weight: 300;
+	color: black;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.image_item .prices_and_btn h5 {
+	margin-right: 30px;
+}
+
+.image_item .prices_and_btn a:hover {
+	color: black;
+	background-color: #c1c1c1;
+	border-color: #9b9b9b;
+}
+
+
+
+
+.item {
+	text-align: center;
+}
+
+
+.combos, .pizzas, .snacks, .drinks, .foot {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+p {
+	font-family: 'Calibri', sans-serif;
+	font-size: 14px;
+}
+
+footer {
+	height: 475px;
+	background-color: #fcfbfb;
+	font-family: Calibri, sans-serif;
+	color: #868585;
+	font-size: 25px;
+}
+
+.separator1{
+	margin-top: 100px;
+	height: 2px;
+	background-color: #f2f1f1;
+}
+
+.wrap__slider {
+	text-align: center;
+}
+
+.slick-dots li button {
+	border: 1px solid #777;
+	border-radius: 50%;
+	transition: border-color .3s;
+
+}
+
+.slick-dots li button:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: #777;
+	opacity: 1;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -5px;
+	transition: border-color .3s;
+}
+
+
+.slick-dots li.slick-active button{
+	border-color: #fff;
+}
+
+.about_us {
+	color: #f54d56;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.first_blog_post {
+	color: #f54d56;
+}
+
+.slick-dots li.slick-active button:before {
+	background: #fff;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1001;
+}
+
+.support ul{
+	display: inline-block;
+	margin: -10px 50px 0 0;
+	padding: 0
+
+}
+
+.support ul li a:not(.about_us) {
+	text-decoration: none;
+	color: #969595;
+	font-size: 15px;
+}
+
+.support ul li {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	width: 100%;
+}
+
+.cards{
+	float: right;
+	margin: 5px 0 0 -10px;
+}
+
+.foot__block {
+	height: 300px;
+	margin-top: 40px;
+}
+
+.foot__block h4 {
+	color : #656363;
+}
+
+.blog h6:not(.first_blog_post) {
+	color: #5c5656;
+}
+
+
+.blog > *:not(h4) {
+	margin: 8px 0 0 0;
+	padding: 2px 0 0 0;
+}
+
+
+
+.address {
+	line-height: 1.3em;
+}
+
+.address > *:not(h4) {
+	margin-top: 30px;
+}
+
+
+
+
+
+
+

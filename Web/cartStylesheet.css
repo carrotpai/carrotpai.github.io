@@ -1,0 +1,192 @@
+.container h2 {
+	margin: 20px 0 0 50px;
+	padding: 0;
+	font-family: 'Calibri', sans-serif;
+	color: #545252;
+}
+
+.send {
+	height: 100px;
+}
+
+.separ {
+	margin-top: 20px;
+	height: 2px;
+	background-color: #cdc9c3;
+}
+
+.separ_last {
+	margin-top: 20px;
+	height: 2px;
+	background-color: #8a8886;
+}
+
+
+.product {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product_descript > * {
+	display: inline-block;
+}
+
+.product_descript {
+	margin: 140px 100px 0 0;
+}
+
+.label, .pric {
+	margin-right: 50px;
+}
+
+.count {
+	margin-right: 20px;
+	text-align: center;
+	width: 40px;
+	border-radius: 15px;
+	background-color: #e2dbdb;
+}
+
+.error {
+	border: solid red 2px !important;
+}
+
+
+.btn-circle.btn-lg {
+	outline: none;
+	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	font-size: 22px;
+	line-height: 1.15em;
+	border-radius: 25px;
+}
+
+#submit_btn {
+	width: 200px;
+	height: 50px;
+	outline: none;
+	font-size: 15px;
+}
+
+.return_button{
+	float: left;
+	display: inline-block;
+	padding: 0.3em 1.2em;
+	margin: 20px 0.3em 0.3em 50px;
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	background-color: #7b7777;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+
+.return_button:hover{
+	background-color: #4095c6;
+}
+
+.sum {
+	float: right;
+	margin-right: 50px;
+}
+
+.sum > * {
+	display: inline-block;
+}
+
+.total_price__cart {
+	border-radius: 10px;
+	background-color: #e2dbdb;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.4em;
+	height: 30px;
+	width: 85px;
+	margin: 0 15px 0 0;
+}
+
+.pric > * {
+	display: inline-block;
+}
+
+
+input[type='text'] {
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: none;
+	padding: 15px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: black;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+}
+
+input[type='radio'] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  color: #ffffff;
+  background: #bcb4b4;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+input[type=radio]:checked + label{
+  color: #1d1b1b;
+  background: gray;
+}
+
+label + input[type=radio] + label {
+  border: solid 3px #716e6e;
+}
+.payment > * {
+  border: solid 3px gray;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  overflow: hidden;
+}
+
+form {
+	width: 500px;
+}
+
+#submit_btn {
+	float: right;
+}
+
+.form_label > * {
+	display: inline-block;
+}
+
+.form_label img {
+	margin: 0 0 5px 5px;
+}
+
+.form_label h4 {
+	font-family: 'Calibri' sans-serif;
+}
+
+
+
+
+
+
+
+
+

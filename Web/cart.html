@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart</title>
+	<link rel="stylesheet" href="Stylesheet.css">
+	<link rel="stylesheet" href="cartStylesheet.css">
+	<link rel="shortcut icon" href="images/pizza-ico.png" type="image/png">
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/cartScpripts.js"></script>
+	<script type="text/javascript" src="js/formValidation.js"></script>
+	<meta charset="UTF-8"> 
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="heading">
+				<img class="logo" src="images/Bobo_pizza_log.png" alt="logo">
+				<img class="separator" src="images/separator.png" alt="separ">
+				<nav id='menu'>
+					<ul class="navigate">
+						<li>
+							<a href="main_page.html#combo">Комбо</a>
+						</li>
+						<li>
+							<a href="main_page.html#pizza">Пицца</a>
+						</li>
+						<li>
+							<a href="main_page.html#snack">Закуски</a>
+						</li>
+						<li>
+							<a href="main_page.html#drink">Напитки</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<h2>Корзина</h2>
+			<div class="cart__items">
+			</div>
+			<div class="separ_last">
+			</div>
+			<div class="sum_and_return">
+				<a href="main_page.html" class="return_button">Назад</a>
+				<div class="sum">
+					<h4>Общая сумма: </h6>
+						<div class="total_price__cart"></div>
+						<h4>₽</h4>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="send"></div>
+					<h2>Доставка</h2>
+					<form action="complete.html" id="order">
+						<div>
+							<div class="form_label">
+								<h4>Номер Телефона</h4><img src="images/Horizontal_line.png" alt="line">
+							</div>
+							<input id="telephon" type="text">
+						</div>
+						<div>
+							<div class="form_label">
+								<h4>Адрес доставки</h4><img src="images/Horizontal_line.png" alt="line">
+							</div>
+							<input id="address" type="text">
+						</div>
+						<div>
+							<div class="form_label">
+								<h4>Имя</h4><img src="images/Horizontal_line.png" alt="line">
+							</div>
+							<input id="nameClient" type="text">
+						</div>
+						<div>
+							<div class="form_label">
+								<h4>e-mail</h4><img src="images/Horizontal_line.png" alt="line">
+							</div>
+							<input id="email" type="text">
+						</div>
+						<h4>Оплата</h4>
+						<div class="payment">
+							<input type="radio" id="option-one" name="selector"><label for="option-one">На сайте</label>
+							<input type="radio" id="option-two" name="selector"><label for="option-two">Курьеру</label>
+						</div>
+						<button id="submit_btn" class="return_button" type="submit">Заказать
+						</button>
+					</form>
+				</div>
+			</section>
+			<div class="separator1">
+			</div>
+			<footer>
+				<div class="container">
+					<div class="foot">
+						<div class="foot__block address">
+							<h4>Наши магазины</h4>
+							<p>
+								1401 Lorem Ipsum Street<br>
+								Irkustsk, CA 16005<br>
+								<strong>(3952) 323-323</strong>
+							</p>
+							<p>
+								1402 Dolor sit Street<br>
+								Irkustsk, VA 26801<br>
+								<strong>(3952) 142-142</strong>
+							</p>
+							<img src="images/foot_print_socials.png" alt="socials">
+						</div>
+						<div class="foot__block blog">
+							<h4>Блог</h4>
+							<h6 class='first_blog_post'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
+							<p>
+								Fusce consequat quis sapien et tempus. <br>
+								Praesent sed diam non mauris sagittis <br>
+								pellentesque ut a dolor
+							</p>
+							<h6> Proin egestas tortor sed est congue</h6>
+							<p>
+								Etiam sollicitudin nulla eu tellus ultrices volutpat <br>
+								. Praesent nec porta urna. Phasellus dapibus lacinia <br>dolor non aliquam
+							</p>
+							<h6>Integer ut erat ut turpis vulputate posuere ac vel massa</h6>
+							<p>
+								Duis ac ligula et arcu dapibus semper. <br> Vestibulum venenatis ligula nec dui dapibus, <br>
+								ac mollis nisl congue
+							</p>
+						</div>
+						<div class="foot__block support">
+							<h4>Поддержка</h4>
+							<ul>
+								<li><a href="">Terms& Conditions</a></li>
+								<li><a href="">FAQ</a></li>
+								<li><a href="">Payment</a></li>
+								<li><a href="">Refunds</a></li>
+								<li><a href="">Track Order</a></li>
+								<li><a href="">Services</a></li>
+							</ul>
+							<ul>
+								<li><a href="">Services</a></li>
+								<li><a href="">Press</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a class="about_us" href="">About Us</a></li>
+								<li><a href="">Contact</a></li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="separator1">
+					</div>
+					<div class="copyrigth">
+						<img src="images/Copy.png" alt="copyright">
+						<img class="cards" src="images/Cards.png" alt="Cards">
+					</div>
+				</div>
+			</footer>
+		</body>
+		</html>

@@ -1,0 +1,13 @@
+{
+	"combos" : [
+		{"name" : "combo_4_pizza", "label" : "Комбо 4 пиццы<br>25 сантиметров",
+			"price":"1300", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" },
+		{"name" : "combo_3_pizza", "label" : "Комбо 3 пиццы<br>30 сантиметров",
+			"price":"1200", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" },
+		{"name" : "combo_3_pizza_cola", "label" : "Комбо 4 пиццы<br>25 сантиметров<br>с CocaCola 0.8л",
+			"price":"1300", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" }
+	]
+}

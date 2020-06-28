@@ -1,0 +1,13 @@
+{
+	"snacks" : [
+		{"name" : "calmari", "label" : "Кальмары",
+			"price":"430", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" },
+		{"name" : "chicken_sticks", "label" : "Куринные палочки",
+			"price":"430", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" },
+		{"name" : "meat_sticks", "label" : "Мясные палочки",
+			"price":"455", 
+		"description":"Lorem ipsum dolor sit amet<br> consectetur adipiscing elit Curabitur aliquet<br> velit tristique pellentesque bibendum<br> metus eros iaculis orci" }
+	]
+}
