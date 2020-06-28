@@ -2,6 +2,8 @@ jQuery(document).ready(function($) {
 	$('#order').on("submit", function(event){
 		if (valid()){
 			event.preventDefault();
+		} else {
+			localStorage.clear();
 		}
 	})
 	$('input[type="text"]').on("click", function(){
