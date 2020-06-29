@@ -35,6 +35,8 @@ jQuery(document).ready(function($) {
 		alert("failed to get JSON");
 	});
 
+	setTimeout(() => console.log('Json загружен'), 500);
+
 
 	$.getJSON('/Web/data_pages/main_page/pizzas.json', function(data) {
 		var mas = data["pizzas"];
@@ -51,6 +53,8 @@ jQuery(document).ready(function($) {
 	.fail(function(){
 		alert("failed to get JSON");
 	});
+
+	setTimeout(() => console.log('Json загружен'), 500);
 
 	$.getJSON('/Web/data_pages/main_page/snacks.json', function(data) {
 		var mas = data["snacks"];
@@ -83,6 +87,8 @@ jQuery(document).ready(function($) {
 	.fail(function(){
 		alert("failed to get JSON");
 	});
+
+	setTimeout(() => console.log('Json загружен'), 500);
 
 	for(var i = 0; i < 15;i++){
 		buttons[i].addEventListener('click', (function(i){
